@@ -51,15 +51,20 @@ a{
   transition: .25s ease-in-out;
 }
 #menu-icon.change div{
-
   background-color: white;
 }
+
 #menu-icon.change{
   background-color: #F9A91A;
 }
-#menu-icon div:hover{
 
+
+#menu-icon div:nth-child(2):hover{
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
+
+
 
 #menu-icon.change div:nth-child(1){
   -webkit-transform: rotate(35deg);
